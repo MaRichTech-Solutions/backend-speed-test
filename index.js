@@ -7,7 +7,7 @@ app.get('/test', (req, res) => {
   // Simulate a response delay of 500 milliseconds
   setTimeout(() => {
     res.status(200).json({ message: 'Success' });
-  }, 0);
+  }, 10000);
 });
 
 // Start the server
